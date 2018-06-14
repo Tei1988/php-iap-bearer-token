@@ -1,0 +1,23 @@
+{
+    "name": "tei1988/iap-bearer-token",
+    "description": "Helper trait for getting Google IAP Access Token",
+    "type": "library",
+    "require": {
+        "google/auth": "v1.3.0"
+    },
+    "require-dev": {
+        "google/auth": "^1.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tei1988",
+            "email": "tei1988@grifola.xyz"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "GoogleIAP\\": "src/"
+      }
+    }
+}
